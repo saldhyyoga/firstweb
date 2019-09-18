@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    outline: none;
 }
 
 body {
@@ -69,6 +70,18 @@ header a:hover{
     font-weight: bold;
 }
 
+.container {
+    width: 90%;
+    margin: 0   auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
 /* ===> Search <=== */
 
 #search{
@@ -89,6 +102,10 @@ header a:hover{
     padding-left: 15px;
 }
 
+.search-area:focus {
+    box-shadow: 0px 0px 10px rgb(247, 247, 247);
+}
+
 .search-btn{
     width: 80px;
     height: 30px;
@@ -98,6 +115,14 @@ header a:hover{
     background: rgba(165, 42, 42, 0.418);
     margin-top: -10px;
     margin-left: 10px
+}
+
+.search-btn:hover {
+    border: 4px double rgb(107, 26, 26);
+}
+
+.search-btn:active {
+    border: 2px solid rgb(107, 26, 26);
 }
 
 /* ===> Global <==== */
