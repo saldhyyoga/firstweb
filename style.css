@@ -51,13 +51,25 @@ header nav{
 
 
 header .current a{
-    color: #f17603;
+    color: white;
     font-weight: bold;
 }
 
 header a:hover{
-    color:green;
+    color:black;
     font-weight: bold;
+}
+
+#header2{
+    width: 100%;
+    border-top: 0px solid orangered;
+    margin-top: 0px;
+}
+
+#video1{
+    margin-top: 0px;
+    height: 790px;
+    width: 100%;
 }
 
 /* ===> Global <==== */
@@ -74,18 +86,6 @@ ul {
 }
 
 /* ===> Footer <=== */
-
-#footer2{
-    width: 100%;
-    border-top: 0px solid orangered;
-    margin-top: 0px;
-    /* margin-left: 1px; */
-}
-#video1{
-    margin-top: 0px;
-    height: 790px;
-    width: 100%;
-}
 
 footer {
     background-color: black;
