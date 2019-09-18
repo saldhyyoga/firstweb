@@ -6,7 +6,7 @@
 /* ===> Header <==== */
 header {
     height: 30px;
-    width: 98%;
+    width: 100vw;
     background: rgba(0, 0, 255, 0);
     padding: 20px;
     margin-bottom: 25px;
@@ -23,7 +23,7 @@ header ul {
 }
 
 header ul li {  
-    display: inline;
+    display: inline;8%
     margin: 0px 30px;
     list-style: none;
     line-height: 20px;
@@ -62,9 +62,67 @@ header a:hover{
 
 /* ===> Global <==== */
 
+/* table header */
+.quantity {
+    width: 40px;
+}
+.item {
+    width: 250px;
+}
+.price {
+    width: 140px;
+}
+.total {
+    width: 180px;
+}
+.address {
+    width: 300px;
+}
+/* table */
+#table-div {
+    position: relative;
+    width: 80vw;
+    height: 70vh;
+    top: 120px;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: 18px;
+}
+
+td:nth-child(2),td:nth-child(5) {
+    text-align: left;
+    padding:10px;
+}
+
+td:nth-child(3), td:nth-child(4){
+    text-align: right;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 3px solid black;
+    text-align: center;
+}
+
+tr {
+    height: 80px;
+}
+
+td img {
+    width: 40px;
+    height: 40px;
+}
+
+.alamat {
+    overflow-Y: scroll;
+    max-height: 50px;
+    max-width: 300px;
+}
+
 
 
 /* ===> Footer <=== */
+
 footer {
     background-color: black;
     color: white;
@@ -74,5 +132,4 @@ footer {
     line-height: 50px;
     position: absolute;
     bottom: 0px;
-    
-  }
+}
