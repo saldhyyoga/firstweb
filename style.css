@@ -7,7 +7,7 @@
 header {
     height: 30px;
     width: 98%;
-    background: blue;
+    background: rgba(0, 0, 255, 0);
     padding: 20px;
     margin-bottom: 25px;
     position: fixed;
