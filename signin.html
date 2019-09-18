@@ -23,11 +23,17 @@
             />
           </a>
         </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li class="current"><a href="">Login</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
     <main>
       <div id="signupdiv">
-        <form action="./index.html" method="POST">
+        <div>
           <h1>Sign In :</h1>
           <hr />
           <section class="userName">
@@ -35,13 +41,14 @@
             <input type="text" name="uname" id="uname" />
           </section>
           <section class="password">
-            <label for="password">password :</label>
+            <label for="password">Password :</label>
             <input type="password" name="password" id="password" />
           </section>
-          <section class="userName">
-            <input type="submit" value="Sign In" />
+          <section class="sign">
+            <a href="./product.html"><button>Sign In</button></a>
+            <a href="./signup.html"><button>Sign Up</button></a>
           </section>
-        </form>
+        </div>
       </div>
     </main>
     <footer>
