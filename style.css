@@ -64,9 +64,15 @@ header .current a{
     font-weight: bold;
 }
 
+header a {
+    text-decoration: none;
+    color: black;
+}
+
 header a:hover{
     color:black;
     font-weight: bold;
+    border-bottom: 2px solid black;
 }
 
 #video1{
