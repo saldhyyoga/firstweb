@@ -59,3 +59,38 @@ h4{
     cursor: pointer;
     background-color: blue;
   }
+
+  /* header */
+  header {
+    height: 30px;
+    width: 98%;
+    background: rgba(0, 0, 255, 0);
+    padding: 20px;
+    margin-bottom: 25px;
+    position: fixed;
+    z-index: 9999;
+  }
+
+header:hover {
+    background-color: rgba(112, 112, 112, 0.418);
+}
+
+header img {
+    float: left;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {  
+    display: inline;
+    margin: 0px 30px;
+    list-style: none;
+    line-height: 20px;
+}
+
+header ul a {
+    text-decoration: none;
+}
+
