@@ -9,26 +9,32 @@
     <link rel="stylesheet" href="formStyle.css" />
   </head>
   <body>
-      <header>
-          <div class="container">
-              <div id="branding">
-                  <a href="index.html">
-                      <img class="hightlight" src="./images/droneLogo.png" alt="logo" width="15%" ; style="display: block;">
-                  </a>
+    <header>
+      <div class="container">
+          <div id="branding">
+              <a href="index.html">
+                  <img class="hightlight" src="./images/droneLogo.png" alt="logo" width="10%" ; style="display: block;">
+              </a>
+              <div id="search">
+                  <form action="signin.html">
+                      <input class="search-area" type="text" name="text" placeholder="Search here">
+                      <input class="search-btn" type="submit" name="submit" value="SEARCH"><a href="signup.html"></a></input>
+                  </form>
               </div>
-              <nav>
-                  <ul>
-                      <li class="current"><a href="index.html">Home</a></li>
-                      <li class="current"><a href="">Login</a></li>
-                  </ul>
-              </nav>
           </div>
-      </header>
-    <main>
-      <div id="signupdiv">
+          <nav>
+              <ul>
+                  <li class="current"><a href="signin.html">Login</a></li>
+              </ul>
+          </nav>
+
+      </div>
+  </header>
+    <main class="signMain signupMain">
+      <div id="sigDiv">
         <form action="./product.html" method="POST">
           <h1>Sign Up :</h1>
-          <hr />
+          <hr class="signHr">
           <section class="email">
             <label for="email">Your email :</label>
             <input type="email" name="email" id="email" />
@@ -53,9 +59,11 @@
             <label for="password">Confirm Password :</label>
             <input type="password" name="password" id="password" />
           </section>
-          <span class="preference">tell us more about youreself</span>
+          <hr class="signHr">
+          <h3 class="preference">Tell us more about yourself :</h3>
           <section class="skillSelection">
             <span>How Skillful are you:</span><br />
+            <hr class="spanHr">
             <input type="radio" name="skill" id="novice" value="novice" />
             <label for="novice">Novice</label>
             <input
@@ -78,8 +86,9 @@
               <option value="Other"></option>
             </datalist>
           </section>
+          <hr class="tellUsHr">
           <section class="submit">
-            <input type="submit" value="Sign Up" />
+            <input class="sign-btn signup-btn" type="submit" value="Sign Up" />
           </section>
         </form>
       </div>
