@@ -10,6 +10,8 @@ body {
     rgba(94, 92, 92, 1) 100%
   );
   overflow: scroll;
+  /* tambahan overflow x gua hilangin */
+  overflow-X: hidden;
 }
 
 .signMain {

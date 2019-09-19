@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style-form.css" />
     <link rel="stylesheet" href="formStyle.css" />
   </head>
   <body>
@@ -15,12 +15,12 @@
               <a href="index.html">
                   <img class="hightlight" src="./images/droneLogo.png" alt="logo" width="10%" ; style="display: block;">
               </a>
-              <div id="search">
+              <!-- <div id="search">
                   <form action="signin.html">
                       <input class="search-area" type="text" name="text" placeholder="Search here">
                       <input class="search-btn" type="submit" name="submit" value="SEARCH"><a href="signup.html"></a></input>
                   </form>
-              </div>
+              </div> -->
           </div>
           <nav>
               <ul>
@@ -32,7 +32,7 @@
   </header>
     <main class="signMain signupMain">
       <div id="sigDiv">
-        <form action="./product.html" method="POST">
+        <form action="./home.html" method="POST">
           <h1>Sign Up :</h1>
           <hr class="signHr">
           <section class="email">
@@ -43,6 +43,7 @@
             <label for="fname">First Name :</label>
             <input type="text" name="fname" id="fname" />
           </section>
+          <br><br><br> <!--gua nambah batas-->
           <section class="lastName">
             <label for="lname">Last Name :</label>
             <input type="text" name="lname" id="lname" />
@@ -55,7 +56,7 @@
             <label for="password">Password :</label>
             <input type="password" name="password" id="password" />
           </section>
-          <section class="password">
+          <section class="password" style="padding-right: 59px"> <!-- gua nambahin inline style-->
             <label for="password">Confirm Password :</label>
             <input type="password" name="password" id="password" />
           </section>
