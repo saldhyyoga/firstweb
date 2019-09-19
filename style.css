@@ -69,12 +69,6 @@ header a:hover{
     font-weight: bold;
 }
 
-/* #header2{
-    width: 100%;
-    border-top: 0px solid orangered;
-    margin-top: 0px;
-} */
-
 #video1{
     margin: -30px auto;
     height: 790px;
@@ -95,15 +89,6 @@ ul {
     margin: 0;
     padding: 0;
 }
-
-/* .button_1{
-    height: 38px;
-    background: #0000006b;
-    border: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #ffffff;
-} */
 
 /* ===> Footer <=== */
 
@@ -166,6 +151,10 @@ footer {
     padding-left: 15px;
 }
 
+.search-area:focus {
+    box-shadow: 0px 0px 10px rgb(247, 247, 247);
+}
+
 .search-btn{
     width: 80px;
     height: 30px;
@@ -175,4 +164,12 @@ footer {
     background: rgba(165, 42, 42, 0.418);
     margin-top: -10px;
     margin-left: 10px
+}
+
+.search-btn:hover {
+    border: 4px double rgb(107, 26, 26);
+}
+
+.search-btn:active {
+    border: 2px solid rgb(107, 26, 26);
 }
