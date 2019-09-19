@@ -173,14 +173,9 @@ footer {
     margin-left: 10px
 }
 
-<<<<<<< HEAD
 /* ====product.html==== */
 .row{
     margin: 0 auto;
-}
-
-body {
-    background-color: #f4f4f4;
 }
 
 .section-products{
@@ -236,7 +231,6 @@ h4{
     cursor: pointer;
     background-color: blue;
   }
-=======
 .search-btn:hover {
     border: 4px double rgb(107, 26, 26);
 }
@@ -244,4 +238,3 @@ h4{
 .search-btn:active {
     border: 2px solid rgb(107, 26, 26);
 }
->>>>>>> 584bfb436bcb55645cefb89feff64ade051e9fb5
