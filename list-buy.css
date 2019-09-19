@@ -204,9 +204,8 @@ td img {
 
     border-radius: 10px;
     border: none;
-    color: #ffffffe5;
     background: rgba(236, 31, 31, 0.705);
-
+    
     font-size: 18px;
     font-weight: 600;
     transform-origin: top bottom;
@@ -217,6 +216,47 @@ td img {
     box-shadow: 0px 0px 10px white;
     color: rgba(161,161,161,1);
     background-color: rgba(185, 3, 3, 0.87);
+}
+
+/* pop-up */
+.pop-up {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+}
+
+#pop .popup{
+    width: 500px;
+    height: 500px;
+    margin: 80px auto;
+    position: relative;
+    border: 3px solid blanchedalmond;
+}
+
+.back {
+    position: absolute;
+    top: 450px;
+    right: 170px;
+    background-color: aliceblue;
+    text-decoration: none;
+    width: 160px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+}
+
+.back:hover{
+    font-weight: bolder;
+}
+
+.pop-up:target{
+    display: block;
 }
 
 /* ===> Footer <=== */
