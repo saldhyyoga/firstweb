@@ -199,10 +199,20 @@ td img {
 
     border-radius: 10px;
     border: none;
-    color: #ffffff9a;
-    background: rgba(165, 42, 42, 0.418);
+    color: #ffffffe5;
+    background: rgba(236, 31, 31, 0.705);
+
+    font-size: 18px;
+    font-weight: 600;
+    transform-origin: top bottom;
 }
 
+#buy-buy:active{
+    transform: scale(0.99);
+    box-shadow: 0px 0px 10px white;
+    color: rgba(161,161,161,1);
+    background-color: rgba(185, 3, 3, 0.87);
+}
 
 /* ===> Footer <=== */
 
