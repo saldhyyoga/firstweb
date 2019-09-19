@@ -1,0 +1,178 @@
+*{
+    outline: none;
+}
+
+.row{
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f4f4f4;
+    margin-top: 80px;
+}
+
+.section-products{
+        background-color: #f4f4f4;
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.box{
+    padding: 1%;
+    border: 1px solid black;
+    background-color: aquamarine;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.span-1-of-4 {
+	width: 20%; 
+}
+
+.product-feature{
+    margin-bottom: 10px;
+}
+
+.box img{
+width: 100%;
+height: auto;
+margin-bottom: 15px;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+h4{
+    font-size: 22px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: blue;
+  }
+
+  /* header */
+  header {
+    height: 30px;
+    width: 98%;
+    background: rgba(112, 112, 112, 0);
+    padding: 20px;
+    margin-bottom: 25px;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+  }
+
+header:hover {
+    background-color: rgba(112, 112, 112, 0.418);
+}
+
+header img {
+    float: left;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {  
+    display: inline;
+    margin: 0px 30px;
+    list-style: none;
+    line-height: 20px;
+}
+
+header ul a {
+    text-decoration: none;
+}
+
+/* haedaer copas */
+header #branding{
+    float: left;
+}
+
+header #branding .highlight{
+    margin: 0px;
+    padding: 0px;
+    margin: auto;
+    position: relative;
+}
+
+header nav{
+    float: right;
+    margin-top: 5px;
+}
+
+header .current a{
+    color: white;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover{
+    color:black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+
+/* ===> Search <=== */
+
+#search{
+    width: auto;
+    float: left;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.search-area{
+    margin-top: -5px;
+    width: 20vw;
+    height: 30px;
+    background: #ffffff9a;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    padding-left: 15px;
+}
+
+.search-area:focus {
+    box-shadow: 0px 0px 10px rgb(247, 247, 247);
+}
+
+.search-btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff9a;
+    background: rgba(165, 42, 42, 0.418);
+    margin-top: -10px;
+    margin-left: 10px
+}
+
+.search-btn:hover {
+    border: 4px double rgb(107, 26, 26);
+}
+
+.search-btn:active {
+    border: 2px solid rgb(107, 26, 26);
+}

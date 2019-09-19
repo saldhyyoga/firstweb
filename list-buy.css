@@ -6,7 +6,7 @@
 
 body {
     background: rgb(94,92,92);
-background: linear-gradient(90deg, rgba(94,92,92,1) 0%, rgba(120,120,116,1) 20%, rgba(161,161,161,1) 50%, rgba(120,120,116,1) 80%, rgba(94,92,92,1) 100%);
+    background: linear-gradient(90deg, rgba(94,92,92,1) 0%, rgba(120,120,116,1) 20%, rgba(161,161,161,1) 50%, rgba(120,120,116,1) 80%, rgba(94,92,92,1) 100%);
 }
 
 /* ===> Header <==== */
@@ -63,6 +63,11 @@ header nav{
 header .current a{
     color: white;
     font-weight: bold;
+}
+
+header a {
+    text-decoration: none; 
+    color:black;
 }
 
 header a:hover{
