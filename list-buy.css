@@ -3,16 +3,25 @@
     padding: 0;
 }
 
+body {
+    background: rgb(94,92,92);
+background: linear-gradient(90deg, rgba(94,92,92,1) 0%, rgba(120,120,116,1) 20%, rgba(161,161,161,1) 50%, rgba(120,120,116,1) 80%, rgba(94,92,92,1) 100%);
+}
+
 /* ===> Header <==== */
 header {
     height: 30px;
-    width: 100vw;
+    width: 98%;
     background: rgba(0, 0, 255, 0);
     padding: 20px;
     margin-bottom: 25px;
     position: fixed;
     z-index: 9999;
   }
+
+header:hover {
+    background-color: rgba(112, 112, 112, 0.418);
+}
 
 header img {
     float: left;
@@ -23,7 +32,7 @@ header ul {
 }
 
 header ul li {  
-    display: inline;8%
+    display: inline;
     margin: 0px 30px;
     list-style: none;
     line-height: 20px;
@@ -46,31 +55,62 @@ header #branding .highlight{
 
 header nav{
     float: right;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 
 header .current a{
-    color: #f17603;
+    color: white;
     font-weight: bold;
 }
 
 header a:hover{
-    color:green;
+    color:black;
     font-weight: bold;
+}
+
+/* ===> Search <=== */
+
+#search{
+    width: auto;
+    float: left;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.search-area{
+    margin-top: -5px;
+    width: 20vw;
+    height: 30px;
+    background: #ffffff9a;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    padding-left: 15px;
+}
+
+.search-btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff9a;
+    background: rgba(165, 42, 42, 0.418);
+    margin-top: -10px;
+    margin-left: 10px
 }
 
 /* ===> Global <==== */
 
 /* table header */
 .quantity {
-    width: 40px;
+    width: 3vw;
 }
 .item {
-    width: 250px;
+    width: 25vw;
 }
 .price {
-    width: 140px;
+    width: 15vw;
 }
 .total {
     width: 180px;
@@ -82,10 +122,8 @@ header a:hover{
 #table-div {
     position: relative;
     width: 80vw;
-    height: 70vh;
     top: 120px;
     margin: 0 auto;
-    padding: 0 auto;
     font-size: 18px;
 }
 
@@ -108,8 +146,13 @@ td, th{
     text-align: center;
 }
 
+th {
+    background-color: #819EB0;
+}
+
 tr {
     height: 80px;
+    background-color: white;
 }
 
 td img {
@@ -123,17 +166,30 @@ td img {
     max-width: 300px;
 }
 
+#buy-buy {
+    height: 50px;
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+
+    border-radius: 10px;
+    border: none;
+    color: #ffffff9a;
+    background: rgba(165, 42, 42, 0.418);
+}
 
 
 /* ===> Footer <=== */
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: transparent;
+    width: 100%;
+    height: 4vh;
+    color: rgb(0, 0, 0);
     text-align: center;
-    width: 100vw;
-    height: 50px;
-    line-height: 50px;
-    position: absolute;
+    line-height: 28px;
+    margin-top: 50px;
+    position: fixed;
     bottom: 0px;
-}
+    font-weight: 800;
+  }
