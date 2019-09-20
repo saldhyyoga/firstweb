@@ -218,6 +218,59 @@ td img {
     background-color: rgba(185, 3, 3, 0.87);
 }
 
+/* payment */
+.pay-ment {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+}
+
+.payment {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    padding-left: 10px;
+}
+
+#pay .payment{
+    width: 200px;
+    height: 200px;
+    margin: 140px auto;
+    position: relative;
+    border: 3px solid blanchedalmond;
+    background-color: aquamarine;
+}
+
+.bayar {
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    background-color: aliceblue;
+    text-decoration: none;
+    width: 160px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+}
+
+.bayar:hover{
+    font-weight: bolder;
+}
+
+.pay-ment:target{
+    display: block;
+}
+
+section {
+    margin: 5px 0px;
+}
 /* pop-up */
 .pop-up {
     position: fixed;

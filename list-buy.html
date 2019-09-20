@@ -73,10 +73,29 @@
                 </tr>
             </tfoot>
         </table>
-        <form action="#pop">
+        <form action="#pay">
         <input type="submit" value="Buy" id="buy-buy">
         </form>
         </div>
+
+<!-- payment -->
+
+<div class="pay-ment" id="pay">
+    <div class="payment">
+<section>
+    <input type="radio" name="payment" id="cc" value="cc">
+    <label for="cc">Credit Card</label>
+</section>
+<section>
+<input type="text" name="credit" id="cc-num" maxlength="16" minlength="14" pattern="[0-9]">
+</section>
+<section>
+    <input type="radio" name="payment" id="COD" value="COD">
+    <label for="COD">Cash on Delivery</label>
+    <a class="bayar" href="#pop">Pay</a>
+</section>
+    </div>
+</div>
 
 <!-- pop-up -->
 
