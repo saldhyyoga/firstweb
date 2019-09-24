@@ -42,28 +42,28 @@
           <hr class="signHr">
           <section class="email">
             <label for="email">Your email :</label>
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" required/>
           </section>
           <section class="firstName">
             <label for="fname">First Name :</label>
-            <input type="text" name="fname" id="fname" />
+            <input type="text" name="fname" id="fname" required minlength="2"/>
           </section>
           <br><br><br> <!--gua nambah batas-->
           <section class="lastName">
             <label for="lname">Last Name :</label>
-            <input type="text" name="lname" id="lname" />
+            <input type="text" name="lname" id="lname" required minlength="2"/>
           </section>
           <section class="userName">
             <label for="uname">Username :</label>
-            <input type="text" name="uname" id="uname" />
+            <input type="text" name="uname" id="uname" required minlength="3" maxlength="10"/>
           </section>
           <section class="password">
             <label for="password">Password :</label>
-            <input type="password" name="password" id="password" />
+            <input type="password" name="password" id="password" required/>
           </section>
           <section class="password" style="padding-right: 59px"> <!-- gua nambahin inline style-->
             <label for="password">Confirm Password :</label>
-            <input type="password" name="password" id="password" />
+            <input type="password" name="password" id="password" required minlength="6" maxlength="16"/>
           </section>
           <hr class="signHr">
           <h3 class="preference">Tell us more about yourself :</h3>
